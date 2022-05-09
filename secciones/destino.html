@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Clase uno</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+              <a href="#"><img src="../img/logo-hotel.png" alt="Logo del hotel"></a>
+            </div>
+            <div class="navBar">
+                <a href="../index.html">Inicio</a>
+                <a href="habitaciones.html">Habitaciones</a>
+                <a href="#">El Destino</a>
+                <a href="promociones.html">Promociones</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+            <div class="menuHamburguer"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+        <div class="imgHeader">
+            <img src="../img/loby.jpeg" alt="Loby del hotel">
+        </div>
+    </header>
+    <main>
+        <!-- Aca empezaria un Carrousel pero al dia de hoy no se como hacerlo sin Bootstrap -->
+        <div class="carousel">
+            <img src="../img/planetario.jpeg" alt="Foto del Planetarios de la Ciudad de Buenos Aires">
+        </div>
+        <!-- Aca terminaria un Carrousel pero al dia de hoy no se como hacerlo sin Bootstrap -->
+        <h2>Bienvenidos a la Ciudad de Buenos Aires.</h2>
+        <h3>Conozca su proximo destino.</h3>
+        <div class="textoDestino">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat corporis atque facere quod maxime debitis culpa amet sint provident ducimus autem, dicta error aperiam ab, quo saepe voluptates! Perspiciatis, incidunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat corporis atque facere quod maxime debitis culpa amet sint provident ducimus autem, dicta error aperiam ab, quo saepe voluptates! Perspiciatis, incidunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat corporis atque facere quod maxime debitis culpa amet sint provident ducimus autem, dicta error aperiam ab, quo saepe voluptates! Perspiciatis, incidunt.</p>
+        </div>
+        <div class="bookingForm">
+            <form action="" method="post">
+                <h2>Hacé tu reserva ahora</h2>
+                <label for="start">Check-in:</label>
+                <input type="date" id="startDate" name="tripStart"
+                value="2022-04-01" min="2022-04-01" max="2025-12-30">
+                <label for="start">Check out:</label>
+                <input type="date" id="finishDate" name="tripFinish"
+                value="2022-04-02" min="2022-04-02" max="2021-12-31"> 
+                <label for="mail">Correo Electrónico</label>
+                <input type="email" id="mail" name="user_name">
+                <label for="msg">Mensaje...</label>
+                <textarea name="user_message" id="msg" cols="3" rows="2"></textarea>
+                <button class="buttonEnviarForm">Enviar</button>
+            </form>
+        </div>
+        <div class="rowDestino">
+            <div class="columnDestino">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas praesentium sit qui recusandae enim illum? A consequuntur, ratione est veritatis similique dicta dolorum repudiandae, libero, molestiae sit alias enim asperiores.
+                    Reiciendis quam quasi, pariatur, ea tenetur libero omnis voluptatum mollitia sint ratione inventore sunt? Enim tempora voluptas, dicta officia temporibus quidem odio tempore iure, molestias maiores quae explicabo consequuntur et!</p>
+                    <p>Cupiditate quod blanditiis inventore minus optio labore iusto necessitatibus laborum. Mollitia id asperiores blanditiis tenetur reiciendis officiis ut perferendis repudiandae a? Consequuntur, atque nobis debitis obcaecati laborum aperiam suscipit molestiae.</p>
+                    <p>Cumque quaerat tempore, nulla, corrupti blanditiis maxime iure, consequuntur minima ullam perferendis aspernatur delectus eius assumenda dolorum dolores quis non debitis amet eveniet saepe suscipit eaque ipsam harum. Consequatur, perferendis.
+                    Vel dolor quam, vitae sequi non sunt rerum necessitatibus unde voluptas tempora ipsum mollitia magni voluptatum enim? Eum dolor voluptatibus eligendi repellat commodi vero et doloribus, quas esse nam. Illum.</p>
+                </div>
+            </div>
+            <div class="columnDestino">
+                <img src="../img/suite.jpeg" alt="foto de la habitación">
+            </div>
+          </div>
+    </main>
+    <footer>
+        <div class="sitemap">
+            <div class="footerEnlaces">
+                <a href="#">Index</a>
+                <a href="#">Habitaciones</a>
+            </div>
+            <div class="footerEnlacesII">
+                <a href="#">El destino</a>
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+        <div class="contactos">
+            <h6>Contactos</h6>
+            <a href="#">Reserva ahora</a>
+            <a href="#">Instagram</a>
+            <a href="#">537373873827</a>
+            <a href="#">elcorreo@unmail.com</a>
+        </div>
+        <div class="formFooter">
+            <form action="" method="post">
+                <h2>Hacé tu reserva ahora</h2>
+                <label for="start">Check-in:</label>
+                <input type="date" id="startDate" name="tripStart"
+                value="2022-04-01" min="2022-04-01" max="2025-12-30">
+                <label for="start">Check out:</label>
+                <input type="date" id="finishDate" name="tripFinish"
+                value="2022-04-02" min="2022-04-02" max="2021-12-31"> 
+                <label for="mail">Correo Electrónico</label>
+                <input type="email" id="mail" name="user_name">
+                <label for="msg">Mensaje...</label>
+                <textarea name="user_message" id="msg" cols="3" rows="2"></textarea>
+                <button class="buttonEnviarFormFooter">Enviar</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,999 @@
+/* Seteo de margenes en general */
+*{padding:0;
+  margin: 0; 
+  font-family: 'Roboto', sans-serif;
+}
+/* Seteo de margenes en general */
+
+/* Desde acá empieza el Header */
+header nav{
+  background-color: rgb(173, 179, 87);
+  display: flex;
+}
+.navBar{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 100px;
+  font-size: 1.1em;
+}
+.menuHamburguer{
+  visibility: hidden;
+}
+header nav img{
+  margin: 20px;
+}
+header nav a{
+  text-decoration: none;
+  color: black
+}
+.imgHeader{
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.imgHeader img{
+  border-radius: 50px;
+  width: 50%;
+  height: auto;
+}
+/* Desde acá empieza el Header */
+
+/* Desde acá empieza el Main */
+main .bookingForm{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.bookingForm h6{
+  text-decoration: underline;
+  font-size: 1em;
+  color: black;
+  margin: 10px 0;
+}
+.bookingForm form{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid olive;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+}
+.buttonEnviarForm{
+  text-decoration: none;
+  color: #fff;
+  background-color: #ab2203b0;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+main .textosIndex{
+  display: flex;
+  margin-bottom: 100px;
+}
+.textosIndex img{
+  width: 50%;
+  height: auto;
+}
+.textosIndex p{
+  margin: 10px 100px;
+}
+/* Hasta acá es el Main */
+
+/* Desde acá empieza la página de Habitaciones */
+main h2{
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+.mainRooms{
+  background-color: #c4c49e;
+}
+.imgsHotel{
+  margin-left: 20%;
+}
+.imgsHotel h4{
+  margin-bottom: 10px;
+}
+.imgsHotel img{
+  border-radius: 5px;
+  box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+}
+.gridContainer{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 10px 0 0 20%;
+}
+.gridContainer img{
+  width: 50%;
+  height: auto;
+}
+.rowhabSuperiores{
+  display: flex;
+  margin-left: 25%;
+}
+.rowhabSuperiores img{
+  width: 100%;
+  height: auto;
+  margin: 0 5%;
+}
+
+/* Hasta acá la página de Habitaciones */
+
+
+/* Acá comienza pagina del destino */
+.carousel{
+  text-align: center;
+  margin-top: 5%;
+}
+.carousel img{
+  width: 30%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+}
+main h3{
+  text-align: center;
+  padding: 10px 0;
+}
+main .textoDestino{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 5%;
+}
+.textoDestino{
+  width: 80%;
+}
+.textoDestino p{
+  margin: 20px;
+}
+
+.rowDestino{
+  display: flex;
+  margin: 0 0 5% 5%;
+  gap: 5%;
+
+}
+.columnDestino img{
+  width: 50%;
+  height: auto;
+}
+.columnDestino{
+  flex: 40%;
+}
+/* Acá termina pagina del destino */
+
+
+/* Acá empieza la página de promociones */
+
+.promociones{
+  width: 50%;
+  margin: auto;
+}
+.textoPromoUno h3{
+  margin-top: 10%;
+}
+.textoPromoUno p{
+  margin: 5% 0;
+}
+.textoPromoDos h3{
+  margin-top: 10%;
+}
+.textoPromoDos p{
+  margin: 5% 0;
+}
+.textoPromoTres h3{
+  margin-top: 10%;
+}
+.textoPromoTres p{
+  margin: 5% 0;
+}
+.imgPromoUno, .imgPromoDos, .imgPromoTres{
+  width: 20%;
+  height: auto;
+  text-align: center;
+}
+.imgPromoUno img{
+  border-radius: 3px;
+  box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+}
+.imgPromoDos img{
+  width: 570%;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+}
+.imgPromoTres img{
+  width: 570%;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+}
+/* Acá termina la página de promociones */
+
+/* Acá termina la página de Contacto */
+
+.containerForm{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 50px 0;
+}
+.containerForm form{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid olive;
+  border-radius: 5px;
+  padding: 50px;
+  box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+}
+.containerForm label{
+  margin: 5px;
+}
+.containerForm textarea{
+  width: 400px;
+}
+.buttonEnviarFormulario{
+  text-decoration: none;
+  color: #fff;
+  background-color: #ab2203b0;
+  padding: 5px;
+  margin: 10px 5px 5px 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Acá termina la página de Contacto */
+
+/* -----------Desde acá está el estilo del Footer  -----------*/
+footer{
+  background-color: rgb(112, 108, 108);
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 50px 0;
+}
+footer .sitemap{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.sitemap h6{
+  text-decoration: underline;
+  font-size: 1em;
+  color: #adb357;
+}
+.footerEnlaces{
+  display: flex;
+  flex-direction: column;
+}
+.footerEnlaces a{
+  margin: 10px 0;
+}
+.footerEnlacesII{
+  display: flex;
+  flex-direction: column;
+}
+.footerEnlacesII a{
+  margin: 10px 0;
+}
+.sitemap a{
+  text-decoration: none;
+  color: #adb357;
+}
+footer .contactos{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.contactos h6{
+  text-decoration: underline;
+  font-size: 1em;
+  color: #adb357;
+}
+.contactos a{
+  margin: 10px 0;
+  text-decoration: none;
+  color: #adb357;
+}
+.formFooter form{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+}
+.buttonEnviarFormFooter{
+  text-decoration: none;
+  color: #fff;
+  background-color: #ab2203b0;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* -----------Hasta acá está el estilo del Footer  -----------*/
+
+
+
+/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header nav img{
+    width: 80px;
+    height: auto;
+  }
+  .navBar{
+    display: none;
+  }
+  .menuHamburguer{
+    visibility: visible;
+    width: 100%;
+    font-size: 40px;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .imgHeader{
+    padding: 50px 0;
+  }
+  .imgHeader img{
+    border-radius: 5px;
+    width: 90%;
+  }
+  main .textosIndex{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  main .textosIndex img{
+    width: 90%;
+    margin-left: 10%;
+    border-radius: 5px;
+  }
+  main .textosIndex p{
+    width: 80%;
+    margin-left: 10%;
+
+  }
+  footer{
+    flex-direction: column;
+  }
+  footer .sitemap{
+    margin-left: 60px;
+  }
+  footer .contactos{
+    margin-left: 60px;
+  }
+  .formFooter form{
+    margin-left: 10px;
+  }
+  .mainRooms h2{
+    padding: 30px 0;
+  }
+  .mainRooms h4{
+    padding: 30px 0 10px 0;
+  }
+  .gridContainer{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 10px 0 0 5%;
+  }
+  .gridContainer img{
+    width: 50%;
+    height: auto;
+  }
+  .rowDoubleRoom img{
+    width: 90%;
+    height: auto;
+  }
+  .rowTripleRoom img{
+    width: 90%;
+    height: auto;
+  }
+  .rowDoubleRoom{ 
+  margin-left: 5%;
+}
+  .rowTripleRoom{
+    margin-left: 5%;
+  }
+  .rowhabSuperiores{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .rowhabSuperiores img{
+    width: 90%;
+    height: auto;
+  }
+  .carousel img{
+    width: 60%;
+  }
+  main .textoDestino{
+    flex-direction: column;
+  }
+  .rowDestino{
+    flex-direction: column-reverse;
+    margin: 0 0 5% 5%;
+    gap: 5%;  
+  }
+  .columnDestino img{
+    width: 80%;
+    height: auto;
+    margin: 5% 0 5% 5%;
+  }
+  .columnDestino{
+    flex: 40%;
+  }
+  .columnDestino p{
+    margin: 5%;
+  }
+  .promociones{
+    width: 80%;
+    margin: auto;
+  }
+  .imgPromoUno, .imgPromoDos, .imgPromoTres{
+    text-align: center;
+  }
+  .imgPromoUno img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .imgPromoDos img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .imgPromoTres img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .containerForm form{
+    width: 90%;
+  }
+  .containerForm textarea{
+    width: 60%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+  header nav img{
+    width: 80px;
+    height: auto;
+  }
+  .navBar{
+    display: none;
+  }
+  .menuHamburguer{
+    visibility: visible;
+    width: 100%;
+    font-size: 40px;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .imgHeader{
+    padding: 50px 0;
+  }
+  .imgHeader img{
+    border-radius: 5px;
+    width: 90%;
+  }
+  main .textosIndex{
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+  main .textosIndex img{
+    width: 90%;
+    margin-left: 10%;
+    border-radius: 5px;
+  }
+  main .textosIndex p{
+    width: 80%;
+    font-size: 2rem;
+    margin-left: 10%;
+  }
+  main .bookingForm{
+    font-size: 2rem;
+  }
+  footer{
+    flex-direction: column;
+    padding: 3% 0;
+    align-items: center;
+  }
+  footer .sitemap{
+    font-size: 2rem;
+    width: 48%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  footer .contactos{
+    font-size: 2rem;
+    margin-left: 0;
+  }
+  .formFooter form{
+    margin-left: 10px;
+  }
+  .mainRooms h2{
+    padding: 30px 0;
+  }
+  .mainRooms h4{
+    padding: 30px 0 10px 0;
+  }
+  .gridContainer{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 10px 0 0 5%;
+  }
+  .gridContainer img{
+    width: 50%;
+    height: auto;
+  }
+  .rowDoubleRoom img{
+    width: 90%;
+    height: auto;
+  }
+  .rowTripleRoom img{
+    width: 90%;
+    height: auto;
+  }
+  .rowDoubleRoom{ 
+  margin-left: 5%;
+}
+  .rowTripleRoom{
+    margin-left: 5%;
+  }
+  .rowhabSuperiores{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .rowhabSuperiores img{
+    width: 90%;
+    height: auto;
+  }
+
+  .carousel img{
+    width: 60%;
+  }
+  main .textoDestino{
+    flex-direction: column;
+  }
+  .rowDestino{
+    flex-direction: column-reverse;
+    margin: 0 0 5% 5%;
+    gap: 5%;  
+  }
+  .columnDestino img{
+    width: 80%;
+    height: auto;
+    margin: 5% 0 5% 5%;
+  }
+  .columnDestino{
+    flex: 40%;
+  }
+  .columnDestino p{
+    margin: 5%;
+  }
+  .promociones{
+    width: 80%;
+    margin: auto;
+  }
+  .imgPromoUno, .imgPromoDos, .imgPromoTres{
+    text-align: center;
+  }
+  .imgPromoUno img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .imgPromoDos img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .imgPromoTres img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .containerForm form{
+    width: 90%;
+  }
+  .containerForm textarea{
+    width: 60%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header nav img{
+    width: 80px;
+    height: auto;
+  }
+  .navBar{
+    display: none;
+  }
+  .menuHamburguer{
+    visibility: visible;
+    width: 100%;
+    font-size: 50px;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .imgHeader{
+    padding: 50px 0;
+  }
+  .imgHeader img{
+    border-radius: 5px;
+    width: 75%;
+  }
+  main .textosIndex{
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+  main .textosIndex img{
+    width: 90%;
+    margin-left: 10%;
+    border-radius: 5px;
+  }
+  main .textosIndex p{
+    width: 80%;
+    font-size: 2rem;
+    margin-left: 10%;
+  }
+  main .bookingForm{
+    font-size: 2rem;
+  }
+  footer{
+    padding: 3% 5%;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .sitemap{
+    font-size: 2rem;
+    margin-left: 5%;
+  }
+  footer .contactos{
+    font-size: 2rem;
+    margin-left: 60px;
+  }
+  .formFooter form{
+    margin-left: 10px;
+  }
+  .mainRooms h2{
+    padding: 30px 0;
+  }
+  .mainRooms h4{
+    padding: 30px 0 10px 0;
+  }
+  .gridContainer{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 10px 0 0 5%;
+  }
+  .gridContainer img{
+    width: 50%;
+    height: auto;
+  }
+  .rowDoubleRoom img{
+    width: 90%;
+    height: auto;
+  }
+  .rowTripleRoom img{
+    width: 90%;
+    height: auto;
+  }
+  .rowDoubleRoom{ 
+  margin-left: 5%;
+}
+  .rowTripleRoom{
+    margin-left: 5%;
+  }
+  .rowhabSuperiores{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .rowhabSuperiores img{
+    width: 90%;
+    height: auto;
+  }
+  /* .imgsHotel img{
+    margin-left: 10%;
+  }
+  .rowDoubleRoom {
+    flex-direction: column;
+  }
+  .columnDoubleRoom{
+    flex: 100%;
+  }
+  .rowTripleRoom{
+    flex-direction: column;
+  }
+  .columnTripleRoom{
+    flex: 50%;
+  }
+  .rowhabSuperiores{
+    flex-direction: column;
+  }
+  .columnhabSuperiores{
+    flex: 100%;
+  } */
+  .carousel img{
+    width: 60%;
+  }
+  main .textoDestino{
+    flex-direction: column;
+  }
+  .rowDestino{
+    flex-direction: column-reverse;
+    margin: 0 0 5% 5%;
+    gap: 5%;  
+  }
+  .columnDestino img{
+    width: 80%;
+    height: auto;
+    margin: 5% 0 5% 5%;
+  }
+  .columnDestino{
+    flex: 40%;
+  }
+  .columnDestino p{
+    margin: 5%;
+  }
+  .promociones{
+    width: 80%;
+    margin: auto;
+  }
+  .imgPromoUno, .imgPromoDos, .imgPromoTres{
+    text-align: center;
+  }
+  .imgPromoUno img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .imgPromoDos img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .imgPromoTres img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .containerForm form{
+    width: 90%;
+  }
+  .containerForm textarea{
+    width: 60%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  header nav img{
+    width: 80px;
+    height: auto;
+  }
+  .navBar{
+    display: none;
+  }
+  .menuHamburguer{
+    visibility: visible;
+    width: 100%;
+    font-size: 50px;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .imgHeader{
+    padding: 50px 0;
+  }
+  .imgHeader img{
+    border-radius: 5px;
+    width: 75%;
+  }
+  main .textosIndex{
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+  main .textosIndex img{
+    width: 90%;
+    margin-left: 10%;
+    border-radius: 5px;
+  }
+  main .textosIndex p{
+    width: 80%;
+    font-size: 2rem;
+    margin-left: 10%;
+  }
+  main .bookingForm{
+    font-size: 2rem;
+  }
+  footer{
+    padding: 3% 5%;
+    align-items: center;
+  }
+  footer .sitemap{
+    font-size: 2rem;
+    margin-left: 60px;
+  }
+  footer .contactos{
+    font-size: 2rem;
+    margin-left: 60px;
+  }
+  .formFooter form{
+    margin-left: 10px;
+  }
+  .mainRooms h2{
+    padding: 30px 0;
+  }
+  .mainRooms h4{
+    padding: 30px 0 10px 0;
+  }
+  /* .imgsHotel img{
+    margin-left: 10%;
+  }
+  .rowDoubleRoom {
+    flex-direction: column;
+  }
+  .columnDoubleRoom{
+    flex: 100%;
+  }
+  .rowTripleRoom{
+    flex-direction: column;
+  }
+  .columnTripleRoom{
+    flex: 50%;
+  }
+  .rowhabSuperiores{
+    flex-direction: column;
+  }
+  .columnhabSuperiores{
+    flex: 100%;
+  } */
+  .carousel img{
+    width: 60%;
+  }
+  main .textoDestino{
+    flex-direction: column;
+  }
+  .rowDestino{
+    flex-direction: column-reverse;
+    margin: 0 0 5% 5%;
+    gap: 5%;  
+  }
+  .columnDestino img{
+    width: 80%;
+    height: auto;
+    margin: 5% 0 5% 5%;
+  }
+  .columnDestino{
+    flex: 40%;
+  }
+  .columnDestino p{
+    margin: 5%;
+  }
+  .promociones{
+    width: 80%;
+    margin: auto;
+  }
+  .imgPromoUno, .imgPromoDos, .imgPromoTres{
+    text-align: center;
+  }
+  .imgPromoUno img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .imgPromoDos img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .imgPromoTres img{
+    width: 400%;
+    height: auto;
+    border-radius: 3%;
+    margin: 20% 0 5% 25%;
+    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+  }
+  .containerForm form{
+    width: 90%;
+  }
+  .containerForm textarea{
+    width: 60%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+/* @media only screen and (min-width: 1200px) {...} */
+
+
+/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  */
