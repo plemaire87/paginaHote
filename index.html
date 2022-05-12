@@ -11,27 +11,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body class="lead">
     <header>
-        <nav>
-            <div>
-              <a href="#"><img src="img/logo-hotel.png" alt="Logo del hotel"></a>
+        <div class="container-fluid" style="background-color: #adb357;">
+        <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #adb357;">
+            <a class="navbar-brand" href="#"><img src="img/logo-hotel.png" alt="Logo del hotel"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="secciones/habitaciones.html">Habitaciones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="secciones/destino.html">Destino</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="secciones/promociones.html">Promociones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="secciones/contacto.html">Contacto</a>
+                </li>
+              </ul>
             </div>
-            <div class="navBar">
-                <a href="#">Inicio</a>
-                <a href="secciones/habitaciones.html">Habitaciones</a>
-                <a href="secciones/destino.html">El Destino</a>
-                <a href="secciones/promociones.html">Promociones</a>
-                <a href="secciones/contacto.html">Contacto</a>
-            </div>
-            <div class="menuHamburguer"><i class="fa-solid fa-bars"></i></div>
-        </nav>
+          </nav>
+        </div>
         <div class="imgHeader">
             <img src="img/loby.jpeg" alt="Loby del hotel">
         </div>
     </header>
     <main>
-        <h1>Bienvenidos a Let Sun Hotel</h1>
+        <h1 class="display-4 d-flex justify-content-center mt-5">Bienvenidos a Let Sun Hotel</h1>
         <div class="bookingForm">
             <form action="" method="post">
                 <h2>Hacé tu reserva ahora</h2>
@@ -48,7 +63,21 @@
                 <button class="buttonEnviarForm">Enviar</button>
             </form>
         </div>
-        <div class="textosIndex">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas praesentium sit qui recusandae enim illum? A consequuntur, ratione est veritatis similique dicta dolorum repudiandae, libero, molestiae sit alias enim asperiores.
+                        Reiciendis quam quasi, pariatur, ea tenetur libero omnis voluptatum mollitia sint ratione inventore sunt? Enim tempora voluptas, dicta officia temporibus quidem odio tempore iure, molestias maiores quae explicabo consequuntur et!</p>
+                        <p>Cupiditate quod blanditiis inventore minus optio labore iusto necessitatibus laborum. Mollitia id asperiores blanditiis tenetur reiciendis officiis ut perferendis repudiandae a? Consequuntur, atque nobis debitis obcaecati laborum aperiam suscipit molestiae.</p>
+                        <p>Cumque quaerat tempore, nulla, corrupti blanditiis maxime iure, consequuntur minima ullam perferendis aspernatur delectus eius assumenda dolorum dolores quis non debitis amet eveniet saepe suscipit eaque ipsam harum. Consequatur, perferendis.
+                        Vel dolor quam, vitae sequi non sunt rerum necessitatibus unde voluptas tempora ipsum mollitia magni voluptatum enim? Eum dolor voluptatibus eligendi repellat commodi vero et doloribus, quas esse nam. Illum.</p>    
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/suite.jpeg" alt="foto de la habitación" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <!-- <div class="textosIndex">
             <div>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas praesentium sit qui recusandae enim illum? A consequuntur, ratione est veritatis similique dicta dolorum repudiandae, libero, molestiae sit alias enim asperiores.
                 Reiciendis quam quasi, pariatur, ea tenetur libero omnis voluptatum mollitia sint ratione inventore sunt? Enim tempora voluptas, dicta officia temporibus quidem odio tempore iure, molestias maiores quae explicabo consequuntur et!</p>
@@ -59,45 +88,45 @@
             <div>
                 <img src="img/suite.jpeg" alt="foto de la habitación">
             </div>
-        </div>
+        </div> -->
     </main>
     <footer>
-        <div class="sitemap">
-            <h6>Enlaces del sitio</h6>
-            <div class="footerEnlaces">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm d-flex flex-column siteMap">
+                <h5>Mapa del sitio</h5>
                 <a href="#">Index</a>
-                <a href="#">Habitaciones</a>
+                <a href="secciones/habitaciones.html">Habitaciones</a>
+                <a href="secciones/destino.html">El Destino</a>
+                <a href="secciones/promociones.html">Promociones</a>
+                <a href="secciones/contacto.html">Contacto</a>
+              </div>
+              <div class="col-sm d-flex flex-column contacto">
+                <h5>Contactos</h5>
+                <a href="#">Reserva ahora</a>
+                <a href="#">Instagram</a>
+                <a href="#">537373873827</a>
+                <a href="#">elcorreo@unmail.com</a>
+              </div>
+              <div class="col-sm d-flex flex-column formFooter">
+                <form action="" method="post">
+                    <h2>Hacé tu reserva ahora</h2>
+                    <label for="start">Check-in:</label>
+                    <input type="date" id="startDate" name="tripStart"
+                    value="2022-04-01" min="2022-04-01" max="2025-12-30">
+                    <label for="start">Check out:</label>
+                    <input type="date" id="finishDate" name="tripFinish"
+                    value="2022-04-02" min="2022-04-02" max="2021-12-31"> 
+                    <label for="mail">Correo Electrónico</label>
+                    <input type="email" id="mail" name="user_name">
+                    <label for="msg">Mensaje...</label>
+                    <textarea name="user_message" id="msg" cols="3" rows="2"></textarea>
+                    <button class="buttonEnviarFormFooter">Enviar</button>
+                </form>
+              </div>
             </div>
-            <div class="footerEnlacesII">
-                <a href="#">El destino</a>
-                <a href="#">Contacto</a>
-            </div>
-        </div>
-        <div class="contactos">
-            <h6>Contactos</h6>
-            <a href="#">Reserva ahora</a>
-            <a href="#">Instagram</a>
-            <a href="#">537373873827</a>
-            <a href="#">elcorreo@unmail.com</a>
-        </div>
-        <div class="formFooter">
-            <form action="" method="post">
-                <h2>Hacé tu reserva ahora</h2>
-                <label for="start">Check-in:</label>
-                <input type="date" id="startDate" name="tripStart"
-                value="2022-04-01" min="2022-04-01" max="2025-12-30">
-                <label for="start">Check out:</label>
-                <input type="date" id="finishDate" name="tripFinish"
-                value="2022-04-02" min="2022-04-02" max="2021-12-31"> 
-                <label for="mail">Correo Electrónico</label>
-                <input type="email" id="mail" name="user_name">
-                <label for="msg">Mensaje...</label>
-                <textarea name="user_message" id="msg" cols="3" rows="2"></textarea>
-                <button class="buttonEnviarFormFooter">Enviar</button>
-            </form>
-        </div>
-    </footer>
-    
+          </div>
+    </footer>   
 </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>

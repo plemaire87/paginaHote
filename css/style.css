@@ -268,55 +268,18 @@ main .textoDestino{
 /* -----------Desde acá está el estilo del Footer  -----------*/
 footer{
   background-color: rgb(112, 108, 108);
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
   padding: 50px 0;
 }
-footer .sitemap{
-  display: flex;
-  flex-direction: column;
-  margin: 30px 0;
-}
-.sitemap h6{
-  text-decoration: underline;
-  font-size: 1em;
-  color: #adb357;
-}
-.footerEnlaces{
-  display: flex;
-  flex-direction: column;
-}
-.footerEnlaces a{
-  margin: 10px 0;
-}
-.footerEnlacesII{
-  display: flex;
-  flex-direction: column;
-}
-.footerEnlacesII a{
-  margin: 10px 0;
-}
-.sitemap a{
+.siteMap a{
   text-decoration: none;
-  color: #adb357;
+  color: orange;
 }
-footer .contactos{
-  display: flex;
-  flex-direction: column;
-  margin: 30px 0;
-}
-.contactos h6{
-  text-decoration: underline;
-  font-size: 1em;
-  color: #adb357;
-}
-.contactos a{
-  margin: 10px 0;
+.contacto a{
   text-decoration: none;
-  color: #adb357;
+  color: orange;
 }
 .formFooter form{
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   border: 2px solid #fff;
@@ -325,6 +288,9 @@ footer .contactos{
   box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
   -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
+}
+.formFooter form h2{
+  font-size: 1.6rem;
 }
 .buttonEnviarFormFooter{
   text-decoration: none;
