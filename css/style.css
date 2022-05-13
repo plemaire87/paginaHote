@@ -32,6 +32,11 @@ header nav a{
 /* Desde acá empieza el Header */
 
 /* Desde acá empieza el Main */
+
+.animate__backInDown .animate__animated {
+  --animate-duration: 5s;
+  --animate-delay: 1.9s;
+}
 .whatsapp {
   position:fixed;
   width:60px;
@@ -96,6 +101,7 @@ main .textosIndex{
 .textosIndex p{
   margin: 10px 100px;
 }
+
 /* Hasta acá es el Main */
 
 /* Desde acá empieza la página de Habitaciones */
