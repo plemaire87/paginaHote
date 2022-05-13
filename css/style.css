@@ -28,6 +28,7 @@ header nav a{
   width: 50%;
   height: auto;
 }
+
 /* Desde acá empieza el Header */
 
 /* Desde acá empieza el Main */
@@ -46,6 +47,10 @@ header nav a{
 }
 .whatsapp-icon {
   margin-top:13px;
+}
+.gradientMain{
+  background: rgb(246,245,219);
+  background: linear-gradient(160deg, rgba(246,245,219,1) 0%, rgba(111,108,108,1) 87%);
 }
 main .bookingForm{
   display: flex;
@@ -212,7 +217,8 @@ main .textoDestino{
 .containerForm{
   display: flex;
   justify-content: center;
-  margin: 10px 0 50px 0;
+  margin-top: 10px;
+  padding-bottom: 30px;
 }
 .containerForm form{
   display: flex;
@@ -351,40 +357,7 @@ footer{
   .columnDestino p{
     margin: 5%;
   }
-  .promociones{
-    width: 80%;
-    margin: auto;
-  }
-  .imgPromoUno, .imgPromoDos, .imgPromoTres{
-    text-align: center;
-  }
-  .imgPromoUno img{
-    width: 400%;
-    height: auto;
-    border-radius: 3%;
-    margin: 20% 0 5% 25%;
-    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
-  }
-  .imgPromoDos img{
-    width: 400%;
-    height: auto;
-    border-radius: 3%;
-    margin: 20% 0 5% 25%;
-    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
-  }
-  .imgPromoTres img{
-    width: 400%;
-    height: auto;
-    border-radius: 3%;
-    margin: 20% 0 5% 25%;
-    box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 7px 14px -4px rgba(0,0,0,0.75);
-  }
+  
   .containerForm form{
     width: 90%;
   }
@@ -740,10 +713,3 @@ footer{
     width: 60%;
   }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-/* @media only screen and (min-width: 1200px) {...} */
-
-
-/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  */
