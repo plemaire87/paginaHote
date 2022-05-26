@@ -1,0 +1,27 @@
+  /* Desde acá empieza el Header */
+  header nav{
+    background-color: rgb(173, 179, 87);
+    display: flex;
+    img{
+      margin: 20px;
+      a{
+        text-decoration: none;
+        color: black
+      }
+    }
+  }
+  
+  .imgHeader{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    img{
+      border-radius: 50px;
+      width: 50%;
+      height: auto;
+    }
+  }
+
+  
+  /* Hasta acá el Header */
