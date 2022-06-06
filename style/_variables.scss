@@ -1,1 +1,14 @@
 $colorWhatsApp: #25d366;
+
+
+// Mapa
+$redes:(
+    facebook: #0A66C2,
+    instagram: #405DE6,
+);
+@each $red, $color in $redes {
+    .btnRedes#{$red}{
+        background-color: $color;
+    }
+    
+}
