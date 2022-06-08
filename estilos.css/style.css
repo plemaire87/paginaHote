@@ -1,13 +1,10 @@
 @charset "UTF-8";
-/* Seteo de margenes en general */
 * {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
-/* Seteo de margenes en general */
-/* Desde acá empieza el Header */
 header nav {
   background-color: rgb(173, 179, 87);
   display: flex;
@@ -32,8 +29,6 @@ header nav img a {
   height: auto;
 }
 
-/* Hasta acá el Header */
-/* Desde acá empieza el Main */
 .animate__backInDown .animate__animated {
   --animate-duration: 5s;
   --animate-delay: 1.9s;
@@ -109,9 +104,6 @@ main .textosIndex img {
 .textosIndex p {
   margin: 10px 100px;
 }
-
-/* Hasta acá es el Main */
-/* Desde acá empieza la página de Habitaciones */
 main h2 {
   text-align: center;
   padding: 30px 0 0 0;
@@ -125,8 +117,6 @@ main h2 {
   background-color: rgba(0, 0, 0, 0.211);
 }
 
-/* Hasta acá la página de Habitaciones */
-/* Acá comienza pagina del destino */
 .carousel {
   text-align: center;
   margin-top: 5%;
@@ -173,8 +163,6 @@ main .textoDestino .textoDestino p {
   flex: 40%;
 }
 
-/* Acá termina pagina del destino */
-/* Acá empieza la página de promociones */
 .promociones {
   width: 50%;
   margin: auto;
@@ -235,8 +223,6 @@ main .textoDestino .textoDestino p {
   -moz-box-shadow: 6px 7px 14px -4px rgba(0, 0, 0, 0.75);
 }
 
-/* Acá termina la página de promociones */
-/* Acá termina la página de Contacto */
 .containerForm {
   display: flex;
   justify-content: center;
@@ -274,8 +260,6 @@ main .textoDestino .textoDestino p {
   justify-content: center;
 }
 
-/* Acá termina la página de Contacto */
-/* -----------Desde acá está el estilo del Footer  -----------*/
 footer {
   background-color: rgb(112, 108, 108);
   padding: 50px 0;
@@ -318,9 +302,6 @@ footer {
   justify-content: center;
 }
 
-/* -----------Hasta acá está el estilo del Footer  -----------*/
-/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  */
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   header nav img {
     width: 80px;
@@ -408,7 +389,6 @@ footer {
     width: 60%;
   }
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   header nav img {
     width: 80px;
@@ -546,7 +526,6 @@ footer {
     width: 60%;
   }
 }
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   header nav img {
     width: 80px;
@@ -686,7 +665,6 @@ footer {
     width: 60%;
   }
 }
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   header nav img {
     width: 80px;
@@ -820,4 +798,4 @@ footer {
   .containerForm textarea {
     width: 60%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
