@@ -1,13 +1,13 @@
 *{padding:0;
-    margin: 0; 
+    margin: 0;
     font-family: 'Roboto', sans-serif;
   }
 
-  
+
 @import "generales";
-  
-  
-  
+
+
+
   .animate__backInDown .animate__animated {
     --animate-duration: 5s;
     --animate-delay: 1.9s;
@@ -37,7 +37,7 @@
     justify-content: center;
     padding: 50px 0;
   }
-  
+
   .bookingForm h6{
     text-decoration: underline;
     font-size: 1em;
@@ -64,7 +64,7 @@
     display: flex;
     justify-content: center;
   }
-  
+
   main .textosIndex{
     display: flex;
     margin-bottom: 100px;
@@ -76,7 +76,7 @@
   .textosIndex p{
     margin: 10px 100px;
   }
-  
+
   main h2{
     text-align: center;
     padding: 30px 0 0 0;
@@ -84,13 +84,15 @@
   .mainRooms{
     background-color: #c4c49e;
   }
+
   .carousel-caption{
     background-color: rgba(0, 0, 0, 0.211);
   }
-  
+
   .carousel{
     text-align: center;
     margin-top: 5%;
+
     img{
       width: 30%;
       height: auto;
@@ -101,29 +103,40 @@
     }
   }
 
-  main h3{
+  main h2 {
     text-align: center;
-    padding: 10px 0;
+    padding: 35px 25px 15px;
+    margin-top: 50px;
   }
+
+  main h3 {
+    text-align: center;
+    padding: 10px 25px;
+  }
+
   main .textoDestino{
     display: flex;
     justify-content: center;
-    margin: 10px 15px;
-    padding-top: 5%;
-    .textoDestino{
-      width: 80%;
-      p{
-        margin: 20px;
-      }
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-start;
+
+    & h3 {
+      padding: 10px 30px;
     }
+
+     &  .detalle-destino {
+        padding: 10px 30px;
+      }
   }
 
-  
+
   .rowDestino{
     display: flex;
     margin: 0 0 5% 5%;
     gap: 5%;
-  
+
   }
   .columnDestino img{
     width: 50%;
@@ -131,7 +144,7 @@
   }
   .columnDestino{
     flex: 40%;
-  }  
+  }
   .promociones{
     width: 50%;
     margin: auto;
@@ -221,9 +234,19 @@
     text-decoration: none;
     color: orange;
   }
+
+  .siteMap a:hover {
+    color: #ffff
+    text-decoration:none;
+  }
   .contacto a{
     text-decoration: none;
     color: orange;
+  }
+
+  .contacto a:hover{
+    color: #ffff;
+    text-decoration: none;
   }
   .formFooter form{
     font-size: 1rem;
@@ -273,7 +296,7 @@
     main .textosIndex p{
       width: 80%;
       margin-left: 10%;
-  
+
     }
     footer{
       flex-direction: column;
@@ -299,7 +322,7 @@
     .rowDestino{
       flex-direction: column-reverse;
       margin: 0 0 5% 5%;
-      gap: 5%;  
+      gap: 5%;
     }
     .columnDestino img{
       width: 80%;
@@ -312,7 +335,7 @@
     .columnDestino p{
       margin: 5%;
     }
-    
+
     .containerForm form{
       width: 90%;
     }
@@ -379,7 +402,7 @@
     .rowDestino{
       flex-direction: column-reverse;
       margin: 0 0 5% 5%;
-      gap: 5%;  
+      gap: 5%;
     }
     .columnDestino img{
       width: 80%;
@@ -493,7 +516,7 @@
     .rowDestino{
       flex-direction: column-reverse;
       margin: 0 0 5% 5%;
-      gap: 5%;  
+      gap: 5%;
     }
     .columnDestino img{
       width: 80%;
@@ -547,7 +570,7 @@
       width: 60%;
     }
   }
-  
+
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     header nav img{
       width: 80px;
@@ -595,8 +618,8 @@
     .mainRooms h2{
       padding: 30px 0;
     }
-  
-    
+
+
     .carousel img{
       width: 60%;
     }
@@ -606,7 +629,7 @@
     .rowDestino{
       flex-direction: column-reverse;
       margin: 0 0 5% 5%;
-      gap: 5%;  
+      gap: 5%;
     }
     .columnDestino img{
       width: 80%;
@@ -660,4 +683,3 @@
       width: 60%;
     }
   }
-  

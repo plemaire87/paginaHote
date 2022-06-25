@@ -130,22 +130,31 @@ main h2 {
   -moz-box-shadow: 6px 7px 14px -4px rgba(0, 0, 0, 0.75);
 }
 
+main h2 {
+  text-align: center;
+  padding: 35px 25px 15px;
+  margin-top: 50px;
+}
+
 main h3 {
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 25px;
 }
+
 
 main .textoDestino {
   display: flex;
   justify-content: center;
-  margin: auto;
-  padding-top: 5%;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-start;
+
 }
-main .textoDestino .textoDestino {
-  width: 80%;
-}
-main .textoDestino .textoDestino p {
-  margin: 20px;
+
+main .textoDestino  .detalle-destino{
+  padding: 10px 30px;
+  text-align: left;
 }
 
 .rowDestino {
@@ -270,9 +279,19 @@ footer {
   color: orange;
 }
 
+.siteMap a:hover{
+  color: #ffff;
+  text-decoration: none;
+}
+
 .contacto a {
   text-decoration: none;
   color: orange;
+}
+
+.contacto a:hover{
+  color: #ffff;
+  text-decoration: none;
 }
 
 .formFooter form {
@@ -340,6 +359,8 @@ footer {
   footer .sitemap {
     margin-left: 60px;
   }
+
+
 
   footer .contactos {
     margin-left: 60px;
